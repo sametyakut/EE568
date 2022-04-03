@@ -227,8 +227,8 @@ $begin 'AnsoftProject'
 				$end 'Properties'
 				CompExtID=6
 				$begin 'Parameters'
-					MenuProp('CoSimulator', 'D', '', 'DefaultNetlist', 0)
 					ButtonProp('CosimDefinition', 'D', '', '', 'Edit', 40501, ButtonPropClientData())
+					MenuProp('CoSimulator', 'D', '', 'DefaultNetlist', 0)
 				$end 'Parameters'
 				$begin 'CosimDefinitions'
 					$begin 'CosimDefinition'
@@ -2522,8 +2522,26 @@ $begin 'AnsoftProject'
 				$end 'OP_Option'
 			$end 'GlobalBoundData'
 			$begin 'Boundaries'
-				NextUniqueID=0
+				NextUniqueID=2
 				MoveBackwards=false
+				$begin 'Current1'
+					ID=0
+					BoundType='Current'
+					IsComponent=false
+					Objects(275)
+					ParentBndID=-1
+					Current='750A'
+					IsPositive=true
+				$end 'Current1'
+				$begin 'Current2'
+					ID=1
+					BoundType='Current'
+					IsComponent=false
+					Objects(287)
+					ParentBndID=-1
+					Current='750A'
+					IsPositive=false
+				$end 'Current2'
 			$end 'Boundaries'
 			$begin 'ProductSpecificData'
 			$end 'ProductSpecificData'
@@ -2547,13 +2565,13 @@ $begin 'AnsoftProject'
 				MeshMethod='AnsoftTAU'
 			$end 'MeshSettings'
 			$begin 'MeshOperations'
-				NextUniqueID=0
+				NextUniqueID=4
 				MoveBackwards=false
 			$end 'MeshOperations'
 		$end 'MeshSetup'
 		$begin 'AnalysisSetup'
 			$begin 'SolveSetups'
-				NextUniqueID=0
+				NextUniqueID=1
 				MoveBackwards=false
 			$end 'SolveSetups'
 		$end 'AnalysisSetup'
@@ -2634,7 +2652,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=1
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						Circuit(Editor3d(View('View Orientation Gadget'=1, WindowPos(3, -1, -1, -8, -31, 0, 0, 890, 376), OrientationMatrix(0.591607987880707, 2.83488432728518e-09, -7.63138441328692e-09, 0, 0, 0.591607987880707, 0, 0, 0, 0, 0.591608047485352, 0, 0, 0, -5.74868774414062, 1, 0, -63.9681930541992, 33.7452926635742, -30.7374591827393, 33.5363082885742, -143.304321289062, 154.801696777344), Drawings[4: 'Rectangle1', 'Circle3', 'Rectangle6', 'Rectangle7'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=1, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=5, dYForGrid=5, dZForGrid=5, dRForGrid=5, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						Circuit(Editor3d(View('View Orientation Gadget'=1, WindowPos(3, -1, -1, -8, -31, 0, 0, 890, 376), OrientationMatrix(0.591607987880707, 2.83488432728518e-09, -7.63138441328692e-09, 0, 0, 0.591607987880707, 0, 0, 0, 0, 0.591608047485352, 0, 0, 0, -5.74868774414062, 1, 0, -63.9681968688965, 33.7452964782715, -30.7374572753906, 33.5363082885742, -145.369659423828, 156.867034912109), Drawings[4: 'Rectangle1', 'Circle3', 'Rectangle6', 'Rectangle7'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=1, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=5, dYForGrid=5, dZForGrid=5, dRForGrid=5, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
