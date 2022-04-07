@@ -1,0 +1,8 @@
+$begin 'CacheDataVersion'
+	DataVersion=-1
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	teta='0deg'
+	angle='1'
+	rotationAngle='-180deg'
+$end 'VariableValues'
