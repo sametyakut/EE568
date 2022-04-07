@@ -1,0 +1,10 @@
+<ValidationInfo>
+  <DesignValid>true</DesignValid>
+  <IgnoreUnclassifiedObjects>false</IgnoreUnclassifiedObjects>
+  <SkipIntersectionChecks>false</SkipIntersectionChecks>
+  <EntityCheckLevel>Strict</EntityCheckLevel>
+  <ValidationLevel>Perform full validations</ValidationLevel>
+  <Messages>
+    <Message>[warning] Eddy effect settings may need revisiting due to the recent changes in the design.  The default value will be used for the object if the value is not specified. </Message>
+  </Messages>
+</ValidationInfo>
