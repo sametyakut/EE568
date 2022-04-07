@@ -1,0 +1,1321 @@
+'<header>'
+   file_format_version 'ansoft_cmu_abstract_model_version 1.0.0'
+   mesh_file_checksum 'npts=825; nedges= 2445; nelem= 1621; nfacets= 5    10   916   331   350    14'
+'</header>'
+'<model>'
+   modelname 'no name'
+   user_unit_name meter
+   unit_conv 1
+   nbodies 6
+   facet_face_map_size 5
+   '<body>'
+      bodyid 2146485548
+      bodyname ''
+      sheet_body 0
+      nfaces 1
+      nedges 0
+      nmodelverts 0
+      '<face>'
+         face_id 2146485549
+         ncofacets 0
+      '</face>'
+      '<vertices>'
+      '</vertices>'
+   '</body>'
+   '<body>'
+      bodyid 6
+      bodyname Core
+      sheet_body 1
+      nfaces 1
+      nedges 12
+      nmodelverts 0
+      '<face>'
+         face_id 16
+         ncofacets 1
+         '<cofacet>'
+            facet_id 10
+            order 2
+         '</cofacet>'
+      '</face>'
+      '<edge>'
+         edge_id 64
+         nseg 4
+         '<segment>'
+            fromid 127
+            toid 605
+         '</segment>'
+         '<segment>'
+            fromid 605
+            toid 115
+         '</segment>'
+         '<segment>'
+            fromid 115
+            toid 665
+         '</segment>'
+         '<segment>'
+            fromid 665
+            toid 114
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 54
+         nseg 5
+         '<segment>'
+            fromid 114
+            toid 89
+         '</segment>'
+         '<segment>'
+            fromid 89
+            toid 90
+         '</segment>'
+         '<segment>'
+            fromid 90
+            toid 96
+         '</segment>'
+         '<segment>'
+            fromid 96
+            toid 763
+         '</segment>'
+         '<segment>'
+            fromid 763
+            toid 106
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 55
+         nseg 6
+         '<segment>'
+            fromid 106
+            toid 97
+         '</segment>'
+         '<segment>'
+            fromid 330
+            toid 97
+         '</segment>'
+         '<segment>'
+            fromid 313
+            toid 330
+         '</segment>'
+         '<segment>'
+            fromid 94
+            toid 778
+         '</segment>'
+         '<segment>'
+            fromid 778
+            toid 313
+         '</segment>'
+         '<segment>'
+            fromid 94
+            toid 105
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 56
+         nseg 5
+         '<segment>'
+            fromid 105
+            toid 95
+         '</segment>'
+         '<segment>'
+            fromid 95
+            toid 87
+         '</segment>'
+         '<segment>'
+            fromid 668
+            toid 86
+         '</segment>'
+         '<segment>'
+            fromid 87
+            toid 668
+         '</segment>'
+         '<segment>'
+            fromid 86
+            toid 122
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 65
+         nseg 5
+         '<segment>'
+            fromid 122
+            toid 111
+         '</segment>'
+         '<segment>'
+            fromid 111
+            toid 453
+         '</segment>'
+         '<segment>'
+            fromid 453
+            toid 454
+         '</segment>'
+         '<segment>'
+            fromid 454
+            toid 621
+         '</segment>'
+         '<segment>'
+            fromid 621
+            toid 116
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 67
+         nseg 6
+         '<segment>'
+            fromid 131
+            toid 607
+         '</segment>'
+         '<segment>'
+            fromid 607
+            toid 103
+         '</segment>'
+         '<segment>'
+            fromid 103
+            toid 566
+         '</segment>'
+         '<segment>'
+            fromid 566
+            toid 57
+         '</segment>'
+         '<segment>'
+            fromid 57
+            toid 563
+         '</segment>'
+         '<segment>'
+            fromid 563
+            toid 43
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 9
+         nseg 9
+         '<segment>'
+            fromid 715
+            toid 55
+         '</segment>'
+         '<segment>'
+            fromid 43
+            toid 715
+         '</segment>'
+         '<segment>'
+            fromid 55
+            toid 480
+         '</segment>'
+         '<segment>'
+            fromid 480
+            toid 54
+         '</segment>'
+         '<segment>'
+            fromid 54
+            toid 91
+         '</segment>'
+         '<segment>'
+            fromid 91
+            toid 73
+         '</segment>'
+         '<segment>'
+            fromid 73
+            toid 56
+         '</segment>'
+         '<segment>'
+            fromid 56
+            toid 673
+         '</segment>'
+         '<segment>'
+            fromid 673
+            toid 59
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 10
+         nseg 10
+         '<segment>'
+            fromid 59
+            toid 76
+         '</segment>'
+         '<segment>'
+            fromid 76
+            toid 483
+         '</segment>'
+         '<segment>'
+            fromid 483
+            toid 4
+         '</segment>'
+         '<segment>'
+            fromid 4
+            toid 777
+         '</segment>'
+         '<segment>'
+            fromid 777
+            toid 3
+         '</segment>'
+         '<segment>'
+            fromid 3
+            toid 639
+         '</segment>'
+         '<segment>'
+            fromid 639
+            toid 5
+         '</segment>'
+         '<segment>'
+            fromid 5
+            toid 65
+         '</segment>'
+         '<segment>'
+            fromid 739
+            toid 61
+         '</segment>'
+         '<segment>'
+            fromid 65
+            toid 739
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 7
+         nseg 9
+         '<segment>'
+            fromid 61
+            toid 675
+         '</segment>'
+         '<segment>'
+            fromid 675
+            toid 58
+         '</segment>'
+         '<segment>'
+            fromid 58
+            toid 74
+         '</segment>'
+         '<segment>'
+            fromid 74
+            toid 92
+         '</segment>'
+         '<segment>'
+            fromid 92
+            toid 53
+         '</segment>'
+         '<segment>'
+            fromid 53
+            toid 490
+         '</segment>'
+         '<segment>'
+            fromid 490
+            toid 52
+         '</segment>'
+         '<segment>'
+            fromid 698
+            toid 40
+         '</segment>'
+         '<segment>'
+            fromid 52
+            toid 698
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 68
+         nseg 7
+         '<segment>'
+            fromid 40
+            toid 72
+         '</segment>'
+         '<segment>'
+            fromid 72
+            toid 85
+         '</segment>'
+         '<segment>'
+            fromid 499
+            toid 78
+         '</segment>'
+         '<segment>'
+            fromid 85
+            toid 499
+         '</segment>'
+         '<segment>'
+            fromid 78
+            toid 497
+         '</segment>'
+         '<segment>'
+            fromid 497
+            toid 506
+         '</segment>'
+         '<segment>'
+            fromid 506
+            toid 104
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 63
+         nseg 19
+         '<segment>'
+            fromid 138
+            toid 493
+         '</segment>'
+         '<segment>'
+            fromid 493
+            toid 127
+         '</segment>'
+         '<segment>'
+            fromid 144
+            toid 138
+         '</segment>'
+         '<segment>'
+            fromid 185
+            toid 144
+         '</segment>'
+         '<segment>'
+            fromid 215
+            toid 185
+         '</segment>'
+         '<segment>'
+            fromid 237
+            toid 215
+         '</segment>'
+         '<segment>'
+            fromid 259
+            toid 237
+         '</segment>'
+         '<segment>'
+            fromid 272
+            toid 259
+         '</segment>'
+         '<segment>'
+            fromid 263
+            toid 272
+         '</segment>'
+         '<segment>'
+            fromid 235
+            toid 553
+         '</segment>'
+         '<segment>'
+            fromid 553
+            toid 263
+         '</segment>'
+         '<segment>'
+            fromid 210
+            toid 235
+         '</segment>'
+         '<segment>'
+            fromid 512
+            toid 210
+         '</segment>'
+         '<segment>'
+            fromid 186
+            toid 512
+         '</segment>'
+         '<segment>'
+            fromid 469
+            toid 470
+         '</segment>'
+         '<segment>'
+            fromid 104
+            toid 468
+         '</segment>'
+         '<segment>'
+            fromid 468
+            toid 469
+         '</segment>'
+         '<segment>'
+            fromid 471
+            toid 186
+         '</segment>'
+         '<segment>'
+            fromid 470
+            toid 471
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 66
+         nseg 22
+         '<segment>'
+            fromid 140
+            toid 477
+         '</segment>'
+         '<segment>'
+            fromid 477
+            toid 131
+         '</segment>'
+         '<segment>'
+            fromid 770
+            toid 140
+         '</segment>'
+         '<segment>'
+            fromid 175
+            toid 770
+         '</segment>'
+         '<segment>'
+            fromid 571
+            toid 175
+         '</segment>'
+         '<segment>'
+            fromid 181
+            toid 571
+         '</segment>'
+         '<segment>'
+            fromid 240
+            toid 181
+         '</segment>'
+         '<segment>'
+            fromid 228
+            toid 240
+         '</segment>'
+         '<segment>'
+            fromid 257
+            toid 228
+         '</segment>'
+         '<segment>'
+            fromid 266
+            toid 257
+         '</segment>'
+         '<segment>'
+            fromid 262
+            toid 743
+         '</segment>'
+         '<segment>'
+            fromid 743
+            toid 266
+         '</segment>'
+         '<segment>'
+            fromid 229
+            toid 262
+         '</segment>'
+         '<segment>'
+            fromid 222
+            toid 229
+         '</segment>'
+         '<segment>'
+            fromid 197
+            toid 713
+         '</segment>'
+         '<segment>'
+            fromid 713
+            toid 222
+         '</segment>'
+         '<segment>'
+            fromid 474
+            toid 475
+         '</segment>'
+         '<segment>'
+            fromid 475
+            toid 197
+         '</segment>'
+         '<segment>'
+            fromid 196
+            toid 474
+         '</segment>'
+         '<segment>'
+            fromid 622
+            toid 623
+         '</segment>'
+         '<segment>'
+            fromid 116
+            toid 622
+         '</segment>'
+         '<segment>'
+            fromid 623
+            toid 196
+         '</segment>'
+      '</edge>'
+      '<vertices>'
+      '</vertices>'
+   '</body>'
+   '<body>'
+      bodyid 48
+      bodyname Rotor
+      sheet_body 1
+      nfaces 1
+      nedges 12
+      nmodelverts 0
+      '<face>'
+         face_id 52
+         ncofacets 1
+         '<cofacet>'
+            facet_id 11
+            order 2
+         '</cofacet>'
+      '</face>'
+      '<edge>'
+         edge_id 260
+         nseg 8
+         '<segment>'
+            fromid 161
+            toid 203
+         '</segment>'
+         '<segment>'
+            fromid 203
+            toid 208
+         '</segment>'
+         '<segment>'
+            fromid 208
+            toid 238
+         '</segment>'
+         '<segment>'
+            fromid 238
+            toid 258
+         '</segment>'
+         '<segment>'
+            fromid 258
+            toid 270
+         '</segment>'
+         '<segment>'
+            fromid 270
+            toid 297
+         '</segment>'
+         '<segment>'
+            fromid 297
+            toid 677
+         '</segment>'
+         '<segment>'
+            fromid 677
+            toid 309
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 252
+         nseg 1
+         '<segment>'
+            fromid 309
+            toid 307
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 234
+         nseg 1
+         '<segment>'
+            fromid 305
+            toid 310
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 261
+         nseg 5
+         '<segment>'
+            fromid 310
+            toid 295
+         '</segment>'
+         '<segment>'
+            fromid 295
+            toid 261
+         '</segment>'
+         '<segment>'
+            fromid 261
+            toid 204
+         '</segment>'
+         '<segment>'
+            fromid 204
+            toid 184
+         '</segment>'
+         '<segment>'
+            fromid 184
+            toid 157
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 263
+         nseg 8
+         '<segment>'
+            fromid 145
+            toid 198
+         '</segment>'
+         '<segment>'
+            fromid 198
+            toid 212
+         '</segment>'
+         '<segment>'
+            fromid 212
+            toid 241
+         '</segment>'
+         '<segment>'
+            fromid 241
+            toid 289
+         '</segment>'
+         '<segment>'
+            fromid 289
+            toid 304
+         '</segment>'
+         '<segment>'
+            fromid 304
+            toid 595
+         '</segment>'
+         '<segment>'
+            fromid 595
+            toid 809
+         '</segment>'
+         '<segment>'
+            fromid 809
+            toid 306
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 264
+         nseg 1
+         '<segment>'
+            fromid 306
+            toid 311
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 265
+         nseg 1
+         '<segment>'
+            fromid 286
+            toid 283
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 266
+         nseg 8
+         '<segment>'
+            fromid 283
+            toid 805
+         '</segment>'
+         '<segment>'
+            fromid 805
+            toid 293
+         '</segment>'
+         '<segment>'
+            fromid 293
+            toid 303
+         '</segment>'
+         '<segment>'
+            fromid 303
+            toid 279
+         '</segment>'
+         '<segment>'
+            fromid 279
+            toid 251
+         '</segment>'
+         '<segment>'
+            fromid 251
+            toid 226
+         '</segment>'
+         '<segment>'
+            fromid 226
+            toid 206
+         '</segment>'
+         '<segment>'
+            fromid 206
+            toid 168
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 259
+         nseg 9
+         '<segment>'
+            fromid 168
+            toid 167
+         '</segment>'
+         '<segment>'
+            fromid 167
+            toid 133
+         '</segment>'
+         '<segment>'
+            fromid 133
+            toid 562
+         '</segment>'
+         '<segment>'
+            fromid 562
+            toid 142
+         '</segment>'
+         '<segment>'
+            fromid 601
+            toid 141
+         '</segment>'
+         '<segment>'
+            fromid 142
+            toid 601
+         '</segment>'
+         '<segment>'
+            fromid 529
+            toid 678
+         '</segment>'
+         '<segment>'
+            fromid 678
+            toid 161
+         '</segment>'
+         '<segment>'
+            fromid 141
+            toid 529
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 253
+         nseg 29
+         '<segment>'
+            fromid 307
+            toid 296
+         '</segment>'
+         '<segment>'
+            fromid 578
+            toid 284
+         '</segment>'
+         '<segment>'
+            fromid 296
+            toid 807
+         '</segment>'
+         '<segment>'
+            fromid 807
+            toid 578
+         '</segment>'
+         '<segment>'
+            fromid 284
+            toid 264
+         '</segment>'
+         '<segment>'
+            fromid 539
+            toid 243
+         '</segment>'
+         '<segment>'
+            fromid 264
+            toid 539
+         '</segment>'
+         '<segment>'
+            fromid 243
+            toid 230
+         '</segment>'
+         '<segment>'
+            fromid 230
+            toid 202
+         '</segment>'
+         '<segment>'
+            fromid 202
+            toid 712
+         '</segment>'
+         '<segment>'
+            fromid 712
+            toid 195
+         '</segment>'
+         '<segment>'
+            fromid 633
+            toid 169
+         '</segment>'
+         '<segment>'
+            fromid 195
+            toid 633
+         '</segment>'
+         '<segment>'
+            fromid 439
+            toid 440
+         '</segment>'
+         '<segment>'
+            fromid 441
+            toid 153
+         '</segment>'
+         '<segment>'
+            fromid 440
+            toid 441
+         '</segment>'
+         '<segment>'
+            fromid 169
+            toid 439
+         '</segment>'
+         '<segment>'
+            fromid 615
+            toid 129
+         '</segment>'
+         '<segment>'
+            fromid 153
+            toid 615
+         '</segment>'
+         '<segment>'
+            fromid 129
+            toid 151
+         '</segment>'
+         '<segment>'
+            fromid 151
+            toid 192
+         '</segment>'
+         '<segment>'
+            fromid 192
+            toid 191
+         '</segment>'
+         '<segment>'
+            fromid 191
+            toid 201
+         '</segment>'
+         '<segment>'
+            fromid 588
+            toid 254
+         '</segment>'
+         '<segment>'
+            fromid 201
+            toid 588
+         '</segment>'
+         '<segment>'
+            fromid 254
+            toid 265
+         '</segment>'
+         '<segment>'
+            fromid 788
+            toid 302
+         '</segment>'
+         '<segment>'
+            fromid 265
+            toid 788
+         '</segment>'
+         '<segment>'
+            fromid 302
+            toid 305
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 262
+         nseg 9
+         '<segment>'
+            fromid 810
+            toid 135
+         '</segment>'
+         '<segment>'
+            fromid 157
+            toid 810
+         '</segment>'
+         '<segment>'
+            fromid 135
+            toid 531
+         '</segment>'
+         '<segment>'
+            fromid 531
+            toid 136
+         '</segment>'
+         '<segment>'
+            fromid 136
+            toid 602
+         '</segment>'
+         '<segment>'
+            fromid 602
+            toid 139
+         '</segment>'
+         '<segment>'
+            fromid 139
+            toid 476
+         '</segment>'
+         '<segment>'
+            fromid 658
+            toid 145
+         '</segment>'
+         '<segment>'
+            fromid 476
+            toid 658
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 254
+         nseg 26
+         '<segment>'
+            fromid 311
+            toid 780
+         '</segment>'
+         '<segment>'
+            fromid 780
+            toid 291
+         '</segment>'
+         '<segment>'
+            fromid 291
+            toid 281
+         '</segment>'
+         '<segment>'
+            fromid 281
+            toid 269
+         '</segment>'
+         '<segment>'
+            fromid 269
+            toid 220
+         '</segment>'
+         '<segment>'
+            fromid 220
+            toid 187
+         '</segment>'
+         '<segment>'
+            fromid 466
+            toid 684
+         '</segment>'
+         '<segment>'
+            fromid 187
+            toid 718
+         '</segment>'
+         '<segment>'
+            fromid 684
+            toid 170
+         '</segment>'
+         '<segment>'
+            fromid 718
+            toid 466
+         '</segment>'
+         '<segment>'
+            fromid 170
+            toid 682
+         '</segment>'
+         '<segment>'
+            fromid 436
+            toid 603
+         '</segment>'
+         '<segment>'
+            fromid 438
+            toid 120
+         '</segment>'
+         '<segment>'
+            fromid 437
+            toid 438
+         '</segment>'
+         '<segment>'
+            fromid 682
+            toid 436
+         '</segment>'
+         '<segment>'
+            fromid 603
+            toid 437
+         '</segment>'
+         '<segment>'
+            fromid 548
+            toid 134
+         '</segment>'
+         '<segment>'
+            fromid 120
+            toid 548
+         '</segment>'
+         '<segment>'
+            fromid 134
+            toid 176
+         '</segment>'
+         '<segment>'
+            fromid 176
+            toid 205
+         '</segment>'
+         '<segment>'
+            fromid 205
+            toid 242
+         '</segment>'
+         '<segment>'
+            fromid 242
+            toid 796
+         '</segment>'
+         '<segment>'
+            fromid 796
+            toid 268
+         '</segment>'
+         '<segment>'
+            fromid 268
+            toid 789
+         '</segment>'
+         '<segment>'
+            fromid 803
+            toid 286
+         '</segment>'
+         '<segment>'
+            fromid 789
+            toid 803
+         '</segment>'
+      '</edge>'
+      '<vertices>'
+      '</vertices>'
+   '</body>'
+   '<body>'
+      bodyid 275
+      bodyname Coil1
+      sheet_body 1
+      nfaces 1
+      nedges 4
+      nmodelverts 0
+      '<face>'
+         face_id 285
+         ncofacets 1
+         '<cofacet>'
+            facet_id 8
+            order 2
+         '</cofacet>'
+      '</face>'
+      '<edge>'
+         edge_id 276
+         nseg 1
+         '<segment>'
+            fromid 5
+            toid 1
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 277
+         nseg 2
+         '<segment>'
+            fromid 1
+            toid 467
+         '</segment>'
+         '<segment>'
+            fromid 467
+            toid 2
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 278
+         nseg 1
+         '<segment>'
+            fromid 2
+            toid 4
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 279
+         nseg 4
+         '<segment>'
+            fromid 4
+            toid 777
+         '</segment>'
+         '<segment>'
+            fromid 777
+            toid 3
+         '</segment>'
+         '<segment>'
+            fromid 3
+            toid 639
+         '</segment>'
+         '<segment>'
+            fromid 639
+            toid 5
+         '</segment>'
+      '</edge>'
+      '<vertices>'
+      '</vertices>'
+   '</body>'
+   '<body>'
+      bodyid 287
+      bodyname Coil2
+      sheet_body 1
+      nfaces 1
+      nedges 4
+      nmodelverts 0
+      '<face>'
+         face_id 297
+         ncofacets 1
+         '<cofacet>'
+            facet_id 12
+            order 2
+         '</cofacet>'
+      '</face>'
+      '<edge>'
+         edge_id 288
+         nseg 2
+         '<segment>'
+            fromid 762
+            toid 82
+         '</segment>'
+         '<segment>'
+            fromid 97
+            toid 762
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 289
+         nseg 4
+         '<segment>'
+            fromid 82
+            toid 93
+         '</segment>'
+         '<segment>'
+            fromid 93
+            toid 68
+         '</segment>'
+         '<segment>'
+            fromid 520
+            toid 69
+         '</segment>'
+         '<segment>'
+            fromid 68
+            toid 520
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 290
+         nseg 2
+         '<segment>'
+            fromid 69
+            toid 758
+         '</segment>'
+         '<segment>'
+            fromid 758
+            toid 94
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 291
+         nseg 4
+         '<segment>'
+            fromid 94
+            toid 778
+         '</segment>'
+         '<segment>'
+            fromid 778
+            toid 313
+         '</segment>'
+         '<segment>'
+            fromid 313
+            toid 330
+         '</segment>'
+         '<segment>'
+            fromid 330
+            toid 97
+         '</segment>'
+      '</edge>'
+      '<vertices>'
+      '</vertices>'
+   '</body>'
+   '<body>'
+      bodyid 366
+      bodyname Potential
+      sheet_body 1
+      nfaces 1
+      nedges 4
+      nmodelverts 0
+      '<face>'
+         face_id 376
+         ncofacets 1
+         '<cofacet>'
+            facet_id 9
+            order 2
+         '</cofacet>'
+      '</face>'
+      '<edge>'
+         edge_id 367
+         nseg 8
+         '<segment>'
+            fromid 16
+            toid 733
+         '</segment>'
+         '<segment>'
+            fromid 733
+            toid 11
+         '</segment>'
+         '<segment>'
+            fromid 27
+            toid 701
+         '</segment>'
+         '<segment>'
+            fromid 701
+            toid 16
+         '</segment>'
+         '<segment>'
+            fromid 33
+            toid 27
+         '</segment>'
+         '<segment>'
+            fromid 13
+            toid 33
+         '</segment>'
+         '<segment>'
+            fromid 15
+            toid 699
+         '</segment>'
+         '<segment>'
+            fromid 699
+            toid 13
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 368
+         nseg 6
+         '<segment>'
+            fromid 35
+            toid 15
+         '</segment>'
+         '<segment>'
+            fromid 17
+            toid 35
+         '</segment>'
+         '<segment>'
+            fromid 45
+            toid 17
+         '</segment>'
+         '<segment>'
+            fromid 6
+            toid 45
+         '</segment>'
+         '<segment>'
+            fromid 8
+            toid 455
+         '</segment>'
+         '<segment>'
+            fromid 455
+            toid 6
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 369
+         nseg 7
+         '<segment>'
+            fromid 12
+            toid 8
+         '</segment>'
+         '<segment>'
+            fromid 32
+            toid 12
+         '</segment>'
+         '<segment>'
+            fromid 29
+            toid 32
+         '</segment>'
+         '<segment>'
+            fromid 724
+            toid 29
+         '</segment>'
+         '<segment>'
+            fromid 19
+            toid 724
+         '</segment>'
+         '<segment>'
+            fromid 689
+            toid 19
+         '</segment>'
+         '<segment>'
+            fromid 21
+            toid 689
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 370
+         nseg 6
+         '<segment>'
+            fromid 38
+            toid 21
+         '</segment>'
+         '<segment>'
+            fromid 25
+            toid 38
+         '</segment>'
+         '<segment>'
+            fromid 39
+            toid 25
+         '</segment>'
+         '<segment>'
+            fromid 9
+            toid 39
+         '</segment>'
+         '<segment>'
+            fromid 685
+            toid 9
+         '</segment>'
+         '<segment>'
+            fromid 11
+            toid 685
+         '</segment>'
+      '</edge>'
+      '<vertices>'
+      '</vertices>'
+   '</body>'
+   '<facet_face_map>'
+      '<entry>'
+         facet_id 8
+         face_id 285
+      '</entry>'
+      '<entry>'
+         facet_id 9
+         face_id 376
+      '</entry>'
+      '<entry>'
+         facet_id 10
+         face_id 16
+      '</entry>'
+      '<entry>'
+         facet_id 11
+         face_id 52
+      '</entry>'
+      '<entry>'
+         facet_id 12
+         face_id 297
+      '</entry>'
+   '</facet_face_map>'
+'</model>'

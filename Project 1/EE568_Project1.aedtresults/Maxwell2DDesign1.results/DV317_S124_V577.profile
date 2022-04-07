@@ -24,4 +24,18 @@ $begin 'Profile'
 		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Adaptive Passes converged\')', false, true)
 		ProfileFootnote('I(1, 0, \'Time:  04/06/2022 16:11:53, Status: Normal Completion\')', 0)
 	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		MajorVer=2022
+		MinorVer=1
+		Name='Solution Process'
+		StartInfo='Time:  04/07/2022 13:22:14; Host: DESKTOP-6J9CTK6; Processor: 8; OS: NT 10.0; Maxwell2D 2022.1.0'
+		TotalInfo='Elapsed time : 00:00:00 , ComEngine Memory : 59.4 M'
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Executing from C:\\\\Program Files\\\\AnsysEM\\\\v221\\\\Win64\\\\MAXWELL2DCOMENGINE.exe\')', false, true)
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'HPC Enabled\')', false, true)
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Desired RAM limit not set.\')', false, true)
+		ProfileItem('Design Validation', 0, 0, 0, 0, 0, 'I(1, 0, \'Elapsed time : 00:00:00 , Maxwell2D ComEngine Memory : 59.3 M\')', false, true)
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Perform full validations\')', false, true)
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'\')', false, true)
+		ProfileFootnote('I(1, 0, \'Time:  04/07/2022 13:22:14, Status: Normal Completion\')', 0)
+	$end 'ProfileGroup'
 $end 'Profile'
