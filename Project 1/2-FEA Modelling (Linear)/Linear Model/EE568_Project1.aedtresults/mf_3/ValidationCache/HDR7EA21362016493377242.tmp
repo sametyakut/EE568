@@ -1,7 +1,0 @@
-$begin 'ValidationCache'
-	$begin 'OneValidationResult'
-		Variation='angle=\'1\' rotationAngle=\'-180deg\' teta=\'0deg\''
-		Status=true
-		FileName='VI7EA21362016493377243.tmp'
-	$end 'OneValidationResult'
-$end 'ValidationCache'
