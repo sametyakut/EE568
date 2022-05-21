@@ -46,7 +46,5 @@ result = table(HarmonicNumber',kp',kd',kw',PhaseAngle_elec',PhaseAngle_mech','Va
 bar(result.kw)
 ticks = 1:1:length(HarmonicNumber);
 xticks(ticks)
-labels = compose("%i",HarmonicNumber);
-xticklabels(labels)
-xlabel('Harmonics')
-ylabel('Winding Factor (k_\omega)')
+labels = {''}
+xticklabels{'1','3','5','7','9'}
