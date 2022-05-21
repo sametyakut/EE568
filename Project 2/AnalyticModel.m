@@ -24,7 +24,7 @@ CoilSpan_deg = 180*PitchNumber;
 Alpha_deg = 180*p/Q;
 SlotPitch = pi*Di/Q; % m
 TeethWidth = SlotPitch-SlotWidth; % m
-HarmonicNumber = 1:2:51;
+HarmonicNumber = 1:2:25;
 header = {'Harmonic Number','kp','kd','kw','Phase Angle (electrical)','Phase Angle (Mechanical)'};
 for i = 1:length(HarmonicNumber)
     kp(i) = sin(HarmonicNumber(i)*CoilSpan_rad/2);
@@ -50,3 +50,12 @@ labels = compose("%i",HarmonicNumber);
 xticklabels(labels)
 xlabel('Harmonics')
 ylabel('Winding Factor (k_\omega)')
+
+figure
+r = ones(1,length(HarmonicNumber));
+th = result.("Phase Angle (electrical)");
+[u, v] = pol2cart(th,r);
+c = compass(u,v);
+c1 = c(1);
+c1.LineWidth = 2;
+c1.Color = 'r';
