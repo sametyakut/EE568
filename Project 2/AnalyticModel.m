@@ -4,10 +4,10 @@ close all
 clc
 
 %inputs
-Q = 240; % # of slots
+Q = 201; % # of slots
 m = 3; % # of phases
 p = 32; % # of poles
-throw = 6;
+throw = 2;
 L = 900e-3; % axial length, m
 Di = 6197.6e-3; % inner diameter, m
 Dr = 6172.2e-3; % rotor diameter, m
