@@ -5,7 +5,7 @@ clc
 Q = 216:3:360;
 m = 3; % # of phases
 p = 32; % # of poles
-throw = 14;
+throw = 7;
 L = 900e-3; % axial length, m
 Di = 6197.6e-3; % inner diameter, m
 Dr = 6172.2e-3; % rotor diameter, m
@@ -40,10 +40,13 @@ while(1)
         PhaseAngle_elec(k) = mod(HarmonicNumber(k)*PhaseAngle_elec(1),360);
         PhaseAngle_mech(k) = mod(HarmonicNumber(k)*PhaseAngle_mech(1),360);
     end
-    header = {'Harmonic Number','kp','kd','kw','Phase Angle (electrical)','Phase Angle (Mechanical)'};
-    result = table(HarmonicNumber',kp',kd',kw',PhaseAngle_elec',PhaseAngle_mech','VariableNames',header);
-    sheetName = num2str(Q(i));
-    writetable(result,'Results.xlsx','sheet',i,'Sheet',sheetName);
+
+    if kw(1)>0.9
+        header = {'Harmonic Number','kp','kd','kw','Phase Angle (electrical)','Phase Angle (Mechanical)'};
+        result = table(HarmonicNumber',kp',kd',kw',PhaseAngle_elec',PhaseAngle_mech','VariableNames',header);
+        sheetName = num2str(Q(i));
+        writetable(result,'Results.xlsx','sheet',i,'Sheet',sheetName);
+    end
 %     figure;
 %     bar(result.kw)
 %     ticks = 1:1:length(HarmonicNumber);
