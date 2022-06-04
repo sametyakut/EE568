@@ -2,10 +2,10 @@ clear all
 close all
 clc
 
-Q = 216:3:360;
+Q = 363:3:399;
 m = 3; % # of phases
 p = 32; % # of poles
-throw = 7;
+throw = 14;
 L = 900e-3; % axial length, m
 Di = 6197.6e-3; % inner diameter, m
 Dr = 6172.2e-3; % rotor diameter, m
